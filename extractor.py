@@ -44,7 +44,7 @@ def get_keywords(dataframe, column1, column2, new_column):
   
   
   
-  
+  # if text is too big for googletrans, splits it up 
   def breakup_keyword_df(string):
     first_25 = int(len(string)*0.25)
     first_50 = int(len(string)*0.50)
