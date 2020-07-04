@@ -1,3 +1,10 @@
+import spacy
+from langdetect import detect
+from googletrans import Translator
+import importlib
+from string import punctuation
+
+
 def get_keywords(dataframe, column1, column2, new_column):
   
   imports = list(lang_model_keys.models)
